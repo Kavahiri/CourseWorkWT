@@ -19,7 +19,7 @@ class Router
 	}
 public function run()
 	{	
-		 // 1. Getting the request string
+
         $uri = $this->getURI();
         $uri_arr = explode('/', $uri);
 		if ($uri_arr !== false) {
@@ -48,11 +48,11 @@ public function run()
                 define('FOLDER_NAME', '');
             }
 		}
-        // 2. Checking if the request exists in routes
+
         foreach ($this->routes as $req=>$act) {
             // 3. If getting match then define the controller and action
             if (preg_match('@'.$req.'@', $uri)) {
-                // 4. Importing file of chosen controller
+
                 if ($req !== '') {
                     $internal = preg_replace('@' . $req . '@', $act, $uri);
                 }
@@ -74,7 +74,6 @@ public function run()
                     include_once($file);
                 }
 
-                // 5. Creating object and doing action
                 try 
 				{
                     $chosenController = new $controller;
