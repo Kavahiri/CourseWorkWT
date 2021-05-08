@@ -1,10 +1,10 @@
 
 body{
-	background: url(background_img.jpg) ; /* Фоновый цвет и фоновый рисунок*/
-	color: #fff; /*Цвет текста на странице*/
+	background: url(background_img.jpg) ; 
+	color: #fff; 
 	background-size: auto;
 	background-attachment: scroll; 
-	background-repeat: repeat; /* Изображение повторяется по горизонтали */
+	background-repeat: repeat; 
 	z-index: -10; 
 	}
 .menu{
@@ -15,30 +15,30 @@ body{
 }
 #bar
 {
-	list-style: none; /*убираем маркеры списка*/
-	padding-left: 0; /*убираем отступы*/
-	margin-top:25px; /*делаем отступ сверху*/
+	list-style: none; 
+	padding-left: 0; 
+	margin-top:25px; 
 	z-index:1;
 }
 #bar a{
 
-  text-decoration: none; /*убираем подчеркивание текста ссылок*/
-  background:#30A8E6; /*добавляем фон к пункту меню*/
-  color:#fff; /*меняем цвет ссылок*/
-  padding: 10px; /*добавляем отступ*/
-  font-family: system-ui; /*меняем шрифт*/
-  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  text-decoration: none;
+  background:#30A8E6; 
+  color:#fff; 
+  padding: 10px; 
+  font-family: system-ui; 
+  -moz-transition: all 0.3s 0.01s ease; 
   -webkit-transition: all 0.3s 0.01s ease;
   
 
 }
 #bar a:hover {
-   background:#1C85BB;/*добавляем эффект при наведении*/
+   background:#1C85BB;/
 	}
 .log	{
-  float:right; /*Размещаем список горизонтально для реализации меню*/
+  float:right; 
   left: 50%;
-  margin-right:15px; /*Добавляем отступ у пунктов меню*/
+  margin-right:15px; 
   
 }
 .block {
@@ -58,25 +58,25 @@ body{
 }
 h1{
 	text-align:center;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 }
 h2{
 	text-align:center;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 }
 h3{
 	text-align:center;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 }
 h4{
 	text-align:center;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 }
@@ -89,7 +89,7 @@ table.logTable{
 }
 .label
 {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 
@@ -107,12 +107,12 @@ table.articleTable td:first-child
 	width:70%;
 }
 .tdkol :hover {
-   background:#30A8E6;/*добавляем эффект при наведении*/
+   background:#30A8E6;
 
 }
 .addd{
 	text-align:center;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:500;
 	text-decoration: none; 
 	margin-bottom:20px;
@@ -123,12 +123,12 @@ table.articleTable td:first-child
 }
 .reg
 {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:500;
 	text-decoration: none; 
 }
 .descript{
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	text-decoration: none;
 	text-align: left;
@@ -136,13 +136,13 @@ table.articleTable td:first-child
 }
 .button
 {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:400;
 	text-decoration: none;
 }
 .article
 {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:400;
 	text-decoration: none;
 	color:black;
@@ -183,12 +183,12 @@ form {
 #button_submit
 {
 	margin-top: 20px;
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:400;
 	text-decoration: none;
 }
 p{
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 	text-align: left;
@@ -196,14 +196,14 @@ p{
 }
 li
 {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 	text-align: left;
 	margin-left:10px;
 }
 ul {
-	font-family: system-ui; /*меняем шрифт*/
+	font-family: system-ui; 
 	font-weight:lighter;
 	color:black;
 	text-align: left;
